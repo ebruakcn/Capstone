@@ -1,6 +1,12 @@
 version: "3.8"
 services:
-  springboot-app:
+   app:
+      build:
+      conntext: .
+      dockerfile: Dockerfile 
+      ports:
+        - "8080:8080"
+   springboot-app:
     build: .
     ports:
       - "8080:8080"
@@ -12,7 +18,7 @@ services:
       DBUSERNAME: postgres
       DBPASSWORD: postgres
 
-  postgres:
+   postgres:
     image: postgres
     ports:
       - 5432:5432
