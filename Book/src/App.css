@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .publisher, .updatePublisher {   
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc; /* Kutu sınırı */
+      border-radius: 8px; /* Kenar yuvarlama */
+      padding: 20px; /* İç boşluk */
+      width: 48%; /* Yüzde olarak genişlik ayarı */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+      background-color: #f9f9f9; /* Arka plan rengi */
+      margin:50px;
+    gap: 20px;
+    }
+  
+  .authors, .updateAuthors{   
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc; /* Kutu sınırı */
+      border-radius: 8px; /* Kenar yuvarlama */
+      padding: 20px; /* İç boşluk */
+      width: 48%; /* Yüzde olarak genişlik ayarı */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+      background-color: #f9f9f9; /* Arka plan rengi */
+      margin:50px;
+    gap: 20px;
+    }
+
+    .category, .updateCategory{   
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #ccc; /* Kutu sınırı */
+        border-radius: 8px; /* Kenar yuvarlama */
+        padding: 20px; /* İç boşluk */
+        width: 48%; /* Yüzde olarak genişlik ayarı */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+        background-color: #f9f9f9; /* Arka plan rengi */
+        margin:50px;
+      gap: 20px;
+      }
+
+        .books, .updateBooks{   
+          display: flex;
+          flex-direction: column;
+          border: 1px solid #ccc; /* Kutu sınırı */
+            border-radius: 8px; /* Kenar yuvarlama */
+            padding: 20px; /* İç boşluk */
+            width: 48%; /* Yüzde olarak genişlik ayarı */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+            background-color: #f9f9f9; /* Arka plan rengi */
+            margin:50px;
+          gap: 20px;
+          }
+            .borrowBook, .updateBorrowedBook{   
+              display: flex;
+              flex-direction: column;
+              border: 1px solid #ccc; /* Kutu sınırı */
+                border-radius: 8px; /* Kenar yuvarlama */
+                padding: 20px; /* İç boşluk */
+                width: 48%; /* Yüzde olarak genişlik ayarı */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+                background-color: #f9f9f9; /* Arka plan rengi */
+                margin:50px;
+              gap: 20px;
+              }
+
+              #button{
+                width: 20%;
+              }
+
+           
+             
+.app-container {
+  position: relative;
+  min-height: 100vh;
+  background-image: url('https://fastly.picsum.photos/id/444/4288/2848.jpg?hmac=kD9xrks5MLlLUO0Zlyl9zkvJr5uV0yrtlQxqJE3kE4A'); 
+  background-size: cover; 
+  background-position: center;
+}
+
+
+.home-container {
+  position: relative;
+  height: 100vh; 
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: white;
+  text-align: center;
+}
+
+.description {
+  font-weight: bold;
+  font-size: 2rem;
+}
